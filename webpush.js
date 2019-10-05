@@ -21,6 +21,7 @@ const pushSubscription = {
   keys: {
     p256dh:
       "BPKDEv-XfzoIGIpA0vJIKVDJGosR2ajkwOYwPzc5UqLX-sdvQuQxu9muZtnbP5FuRm56Wtl4PcF9x6RUB3ixpTo",
+
     auth: "tedhPSjocNC2B6UJqcfb2g"
   }
 };
