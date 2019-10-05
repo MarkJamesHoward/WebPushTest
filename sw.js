@@ -1,4 +1,4 @@
-self.addEventListener("push", async e => {
+self.addEventListener("push", e => {
   var options = {
     body: "test",
     icon: "images/example.png",
