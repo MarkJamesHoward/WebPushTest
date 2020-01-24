@@ -26,6 +26,15 @@
         });
 
         console.log(JSON.stringify(push));
+
+        fetch("https://weatherapitestx.azurewebsites.net/subscription", {
+          method: "POST", // *GET, POST, PUT, DELETE, etc.
+          credentials: "same-origin", // include, *same-origin, omit
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(push) // body data type must match "Content-Type" header
+        });
       }
     </script>
   </body>
